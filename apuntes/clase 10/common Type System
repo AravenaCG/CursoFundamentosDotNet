@@ -1,0 +1,12 @@
+-provee la libreria base para los tipos primitivos.
+-provee un modelo de tipos de datos orientado a objetos
+
+Categorías del CTS(Common Type System):
+
+
+*Clases
+*Estructuras
+*Enumeraciones
+*Interfaces
+*Delegados
+Todas ellas tienen subtipos.
