@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Exiuser\\Desktop\\Platzi\\CursoFundamentosDotNet\\CursoFundamentosDotNet\\consoleapp\\consoleapp.csproj": {}
+    "C:\\Users\\Exiuser\\Desktop\\Platzi\\CursoFundamentosDotNet\\CursoFundamentosDotNet\\webapi\\webapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Exiuser\\Desktop\\Platzi\\CursoFundamentosDotNet\\CursoFundamentosDotNet\\consoleapp\\consoleapp.csproj": {
+    "C:\\Users\\Exiuser\\Desktop\\Platzi\\CursoFundamentosDotNet\\CursoFundamentosDotNet\\webapi\\webapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Exiuser\\Desktop\\Platzi\\CursoFundamentosDotNet\\CursoFundamentosDotNet\\consoleapp\\consoleapp.csproj",
-        "projectName": "consoleapp",
-        "projectPath": "C:\\Users\\Exiuser\\Desktop\\Platzi\\CursoFundamentosDotNet\\CursoFundamentosDotNet\\consoleapp\\consoleapp.csproj",
+        "projectUniqueName": "C:\\Users\\Exiuser\\Desktop\\Platzi\\CursoFundamentosDotNet\\CursoFundamentosDotNet\\webapi\\webapi.csproj",
+        "projectName": "webapi",
+        "projectPath": "C:\\Users\\Exiuser\\Desktop\\Platzi\\CursoFundamentosDotNet\\CursoFundamentosDotNet\\webapi\\webapi.csproj",
         "packagesPath": "C:\\Users\\Exiuser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Exiuser\\Desktop\\Platzi\\CursoFundamentosDotNet\\CursoFundamentosDotNet\\consoleapp\\obj\\",
+        "outputPath": "C:\\Users\\Exiuser\\Desktop\\Platzi\\CursoFundamentosDotNet\\CursoFundamentosDotNet\\webapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -42,8 +42,18 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -56,6 +66,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
